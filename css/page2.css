@@ -1,0 +1,158 @@
+html {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: black;
+  color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.logo {
+  width: 10%;
+}
+
+header {
+background-color: black;
+}
+
+/*
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 4rem;
+
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+}*/
+
+h1 {
+  font-family: braisetto, script;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+nav ul{
+  display: flex;
+  gap: -5rem;
+  justify-content: space-around;
+  align-items: center;
+list-style-type: none;
+font-family: orpheuspro, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+nav {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: orpheuspro, serif;
+  font-weight: 700;
+  font-style: normal;
+  grid-column: 1/4;
+  grid-row: 1;
+  z-index: 2;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  margin-top: 3rem;
+/*  grid-column: 1;
+  grid-row: 2;
+  z-index: 1;*/
+}
+
+h1:hover {
+  transition: all .1s linear;
+    transform: scale(1.1);
+}
+
+.image {
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.image img {
+grid-column: 1/4;
+  grid-row: 1;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+}
+
+
+.policies {
+  margin-top: 1rem;
+display: flex;
+align-items: center;
+flex-direction: column;
+  background-color: #b09e94;
+  color: black;
+padding: 1rem;
+font-family: orpheuspro, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+.policies ul {
+  list-style-type: "✦  "
+}
+
+.policies p {
+  text-align: center;
+  margin-top: -1rem;
+}
+
+em {
+  font-family: orpheuspro, serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.Etsy {
+  font-family: orpheuspro, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+  background-color: #80515e;
+  color: black;
+  padding: 1rem;
+  border-radius: .3rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.Etsy p {
+  font-size: 1rem;
+  color: #fff;
+  font-family: orpheuspro, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h4 {
+  font-size: 1rem;
+}
+.contactlist {
+  list-style-type: none;
+  margin-left: -2.5rem;
+  margin-top: -1rem;
+}
