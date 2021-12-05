@@ -36,7 +36,7 @@ background-color: black;
 
 h1 {
   font-family: braisetto, script;
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
   color: #fff;
 display: flex;
@@ -51,7 +51,7 @@ nav ul{
   align-items: center;
 list-style-type: none;
 font-family: orpheuspro, serif;
-font-weight: 400;
+font-weight: normal;
 font-style: normal;
 }
 
@@ -61,7 +61,7 @@ nav {
 
 h2 {
   font-family: orpheuspro, serif;
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
   grid-column: 1/4;
   grid-row: 1;
@@ -105,7 +105,7 @@ flex-direction: column;
   color: black;
 padding: 1rem;
 font-family: orpheuspro, serif;
-font-weight: 400;
+font-weight: normal;
 font-style: normal;
 }
 
@@ -123,13 +123,13 @@ h3 {
 
 em {
   font-family: orpheuspro, serif;
-  font-weight: 400;
+  font-weight: normal;
   font-style: italic;
 }
 
 .etsy {
   font-family: orpheuspro, serif;
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
   font-size: 3rem;
   background-color: #80515e;
@@ -144,7 +144,7 @@ em {
   font-size: 1rem;
   color: #fff;
   font-family: orpheuspro, serif;
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
 }
 
