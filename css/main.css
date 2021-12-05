@@ -27,7 +27,7 @@ header {
 
 h1 {
   font-family: braisetto, script;
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
   color: #fff;
   display: flex;
@@ -41,7 +41,7 @@ nav ul {
   align-items: center;
   list-style-type: none;
   font-family: orpheuspro, serif;
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -51,7 +51,7 @@ nav {
 
 h2 {
   font-family: orpheuspro, serif;
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
   grid-column: 1/4;
   grid-row: 1;
@@ -92,7 +92,7 @@ h3 {
   color: black;
   padding: 1rem;
   font-family: orpheuspro, serif;
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -118,7 +118,7 @@ section {
   padding: 1rem;
   text-align: center;
   font-family: orpheuspro, serif;
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -126,7 +126,7 @@ section {
 
 .date {
   font-family: orpheuspro, serif;
-  font-weight: 400;
+  font-weight: normal;
   font-style: italic;
 }
 
@@ -141,7 +141,7 @@ section {
 
 .button1 {
   font-family: orpheuspro, serif;
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
   font-size: 2rem;
   background-color: #80515e;
@@ -168,7 +168,7 @@ section {
 
 .button2 {
   font-family: orpheuspro, serif;
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
   font-size: 2rem;
   background-color: #80515e;
