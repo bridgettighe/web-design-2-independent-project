@@ -240,3 +240,128 @@ margin-bottom: 2rem;
 margin: 0 auto;
 align-content: center;
 }
+
+footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: .5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+    grid-area: 1fr 1fr;
+  }
+
+li{
+  font-size: 1rem;
+}
+
+.ribbon {
+  width: 100%;
+}
+
+
+.beginnertext {
+  grid-area: 1fr 1fr;
+  margin-top: 3rem;
+  margin-right: 2rem;
+}
+
+.signup1 {
+  margin-top: 28rem;
+}
+
+.signup1form {
+  padding-top: 32rem;
+}
+
+.intermediatetext {
+    grid-area: 1fr 1fr;
+    margin-top: 3rem;
+margin-right: 20rem;
+}
+
+.advancedtext {
+  grid-area: 1fr 1fr;
+  margin-top: 3rem;
+  margin-right: 3rem;
+}
+
+.signup2 {
+  margin-top: 18rem;
+}
+
+.signup3 {
+  margin-top: 16rem;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    background-color: black;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+
+  .beginnertext {
+    margin-top: 6rem;
+  }
+
+  .intermediatetext {
+    margin-top: 6rem;
+    margin-left: 4rem;
+
+  }
+
+  .advancedtext {
+    margin-top: 6rem;
+  }
+
+  .signup1 {
+margin-top: 15rem;
+margin-bottom: 0;
+  }
+
+  .signup1form {
+    padding-top: 20rem;
+  }
+
+  .signup2 {
+    margin-top: 1rem;
+  }
+
+  .signup3 {
+    margin-top: 1rem;
+  }
+
+  .signup3form {
+    margin-top: -2rem;
+  }
+
+  .logo {
+    width: 6%;
+  }
+
+  h2 {
+    margin-top: 15rem;
+    font-size: 2rem;
+  }
+
+}

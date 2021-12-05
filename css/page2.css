@@ -127,7 +127,7 @@ em {
   font-style: italic;
 }
 
-.Etsy {
+.etsy {
   font-family: orpheuspro, serif;
   font-weight: 700;
   font-style: normal;
@@ -140,7 +140,7 @@ em {
   margin-top: 2rem;
 }
 
-.Etsy p {
+.etsy p {
   font-size: 1rem;
   color: #fff;
   font-family: orpheuspro, serif;
@@ -155,4 +155,64 @@ h4 {
   list-style-type: none;
   margin-left: -2.5rem;
   margin-top: -1rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h2 {
+    margin-top: 6rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  }
+
+  .policies {
+    margin-right: 1rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+  }
+
+  .etsy {
+    grid-area: 1/2;
+    margin-bottom: 30rem;
+  }
+
+  .contact {
+    grid-area: 1/2;
+    margin-top: 15rem;
+text-align: right;
+  }
+
+  footer {
+    margin-top: 2rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+h2 {
+  margin-top: 15rem;
+  font-size: 2rem;
+}
+.policies {
+  margin-bottom: 20rem;
+}
+
+.logo {
+  width: 6%;
+}
 }
