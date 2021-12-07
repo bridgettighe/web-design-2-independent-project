@@ -17,6 +17,15 @@ img {
   width: 100%;
 }
 
+nav a:hover,
+nav a:focus {
+  background-color: #80515e;
+  border-radius: .9em;
+}
+
+.skip-links {
+  color: black;
+}
 .logo {
   width: 10%;
 }
