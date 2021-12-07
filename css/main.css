@@ -60,6 +60,11 @@ nav {
   text-decoration: none;
 }
 
+nav:hover,
+nav:focus {
+  background-color: #80515e;
+}
+
 h2 {
   font-family: orpheuspro, serif;
   font-weight: bold;

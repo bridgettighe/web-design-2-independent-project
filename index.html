@@ -13,14 +13,14 @@
 <body>
 
   <ul class="skip-links">
-    <li><a href="#nav" aria-label="nav"></a>Skip To Navigation</li>
+    <li><a href="#nav" aria-label="navigation"></a>Skip To Navigation</li>
     <li><a href="#main" aria-label="main"></a>Skip To Main</li>
   </ul>
 
   <header role="banner">
     <img class="logo" src="images/logo-250.svg" alt="taroteclipse logo">
     <h1>taroteclipse</h1>
-    <nav role="navigation">
+    <nav role="navigation" id="nav" tabindex="0">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="book-a-reading.html">Book A Reading</a></li>
@@ -33,7 +33,7 @@
     </div>
   </header>
 
-  <main role="main">
+  <main role="main" id="main" tabindex="0">
     <div class="about">
       <img class="aboutimage" src="images/about.jpg" alt="Photo drawing tarot cards">
       <h3>ABOUT</h3>
