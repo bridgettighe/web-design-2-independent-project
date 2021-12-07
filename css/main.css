@@ -60,9 +60,10 @@ nav {
   text-decoration: none;
 }
 
-nav:hover,
-nav:focus {
+nav a:hover,
+nav a:focus {
   background-color: #80515e;
+  border-radius: .9em;
 }
 
 h2 {
