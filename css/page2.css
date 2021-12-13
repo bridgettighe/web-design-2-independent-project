@@ -34,15 +34,6 @@ header {
 background-color: black;
 }
 
-/*
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 4rem;
-
-  grid-column: 1/-1;
-  grid-row: 1/-1;
-}*/
-
 h1 {
   font-family: braisetto, script;
   font-weight: bold;
@@ -60,7 +51,7 @@ nav ul{
   align-items: center;
 list-style-type: none;
 font-family: orpheuspro, serif;
-font-weight: normal;
+font-weight: bold;
 font-style: normal;
 }
 
@@ -78,9 +69,6 @@ h2 {
   text-shadow: 2px 2px black;
   text-align: center;
   margin-top: 3rem;
-/*  grid-column: 1;
-  grid-row: 2;
-  z-index: 1;*/
 }
 
 h1:hover {
@@ -207,6 +195,10 @@ text-align: right;
 
   footer {
     margin-top: 2rem;
+  }
+
+  nav ul {
+    font-size: 1.2rem;
   }
 
 }
